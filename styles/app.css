@@ -1,0 +1,84 @@
+body {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(255, 189, 189) 0%,
+    rgb(255, 216, 168) 62%,
+    rgb(255, 248, 168) 100.7%
+  );
+}
+h1 {
+  text-align: center;
+  font-size: 48px;
+  color: #f95959;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+h2 {
+  text-align: center;
+  color: #f95959;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border: 1px solid;
+  line-height: 50px;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 20px 20%;
+}
+.links {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin: 20px 20px 20px 20px;
+}
+a {
+  color: #f95959;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+li {
+  display: inline;
+  margin: 0 15px;
+  font-size: larger;
+  font-weight: 400;
+}
+
+p {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 20px 20%;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+  padding: 5px 25px;
+  background: #f95959;
+  color: white;
+  transition: all 200ms ease-in-out;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #f95959;
+}
+button:hover {
+  background-color: #ffcab0;
+  color: #f95959;
+  cursor: pointer;
+}
+.footer {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #f95959;
+}
+span {
+  color: #f95959;
+  font-weight: bolder;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px #f95959;
+  max-width: 400px;
+}

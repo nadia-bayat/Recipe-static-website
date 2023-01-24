@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/app.css" />
+    <title>Bread Recipes</title>
+  </head>
+  <body>
+    <h1>Recipes</h1>
+
+    <h2>White Bread Recipe</h2>
+    <ul class="links">
+      <li><a href="/index.html">Homepage</a></li>
+      <li><a href="/photo.html">Photo</a></li>
+      <li><a href="/contact.html">Contact me</a></li>
+    </ul>
+    <p>
+      <span>Ingredients:</span> 3 cups bread flour, 2 & 1/4 tsp instant yeast, 2
+      tbsp white sugar, 1 tsp salt, 1 cup hot milk, 1 large egg, 2 tbsp
+      vegetable oil
+      <br />
+      <br />
+      <span> Instructions:</span> In a large bowl, whisk 2 & a half cups of
+      flour, yeast, sugar and salt (Do not add salt directly to the yeast). Add
+      milk and beat well using an electric mixer or your hand. Add the egg and
+      oil and stir in the remaining flour and mix well to form the dough. When
+      the dough is formed, turn it out onto a lightly floured surface and knead
+      until smooth and elastic. Cover it with a cloth and let it rest for 10
+      min. Roll it out to get a rectangle(with the same length as your loaf
+      pan's). Form into a loaf and place it in a loaf pan. Cover the loaf with a
+      cloth and let rise in a warm place for 60 min. Preheat the oven to 190°C
+      for 15 min. Bake for 15 minutes. Take the bread out and cover the top with
+      foil and bake for 15 more minutes. Fall in love with its taste and smell!
+    </p>
+    <button>Order</button>
+    <p class="footer">Coded by Nadia Bayat</p>
+    <script>
+      function order() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email address?");
+        if (name.length > 0 && email.length > 0) {
+          alert("Thank you, " + name + "! we'll be in touch!");
+        } else {
+          alert("Please enter your name and email address properly!");
+        }
+      }
+      let orderButton = document.querySelector("button");
+      orderButton.addEventListener("click", order);
+    </script>
+  </body>
+</html>
